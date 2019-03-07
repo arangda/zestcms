@@ -1,0 +1,22 @@
+{
+    "name": "arangda/zest",
+    "description": "The Zest Framework",
+    "type":"project",
+    "authors": [{
+        "name":"arangda",
+        "email":"273890638@qq.com"
+    }],
+    "require":{
+        "php":">=5.3",
+        "illuminate/database":"5.4.27",
+        "noahbuscher/macaw": "dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "Zest\\":"Zest",
+            "app\\":"app",
+            "library\\":"library"
+        }
+    }
+
+}
